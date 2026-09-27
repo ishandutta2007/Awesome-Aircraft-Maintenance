@@ -57,7 +57,7 @@ Below is a structured analysis of leading commercial aircraft maintenance softwa
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source aviation maintenance applications, logbook digitizers, and predictive maintenance algorithms — ranked by **GitHub Stars_Count (Descending)**. 🌟
+Curated open-source aviation maintenance applications, logbook digitizers, and predictive maintenance algorithms — ranked by **GitHub_Stars_Count (Descending)**. 🌟
 
 - **[shiroinekotfs/airplane-manual-collection](https://github.com/shiroinekotfs/airplane-manual-collection)** [![GitHub_Stars](https://img.shields.io/github/stars/shiroinekotfs/airplane-manual-collection?style=social&color=white)](https://github.com/shiroinekotfs/airplane-manual-collection/stargazers)  
   📚 A massive 3.39 GB curated collection of technical airplane manuals, maintenance procedures, and operational documentations for Boeing, Airbus, and GA aircraft reference.
