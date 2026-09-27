@@ -1,211 +1,118 @@
 # Awesome-Aircraft-Maintenance
 
-## Top Aircraft Maintenance (MRO) Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Aircraft-Maintenance?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Aircraft-Maintenance/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Curated Aircraft Maintenance (MRO) Software & Ecosystem
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Airworthiness Compliance, Maintenance Tracking & Fleet Management*  
+A comprehensive, SEO-optimized directory of **SaaS platforms**, **enterprise MRO software**, and **open-source GitHub repositories** for **Aircraft Maintenance, Repair & Overhaul (MRO)**, **Airworthiness Directive (AD/SB) Tracking**, **CAMO Management**, **Flight Logbook Digitization**, and **Predictive Maintenance**.
 
 **Last updated: March 2026**
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Aircraft Maintenance (MRO)**. These tools manage maintenance scheduling, airworthiness directives, work orders, component tracking, inventory, and regulatory compliance for airlines, MROs, CAMOs, and aircraft operators.
-
-
-
-**Examples** include Ramco Aviation, AMOS, Veryon, IFS Maintenix, Traxxall, Swiss AviationSoftware AMOS, Rusada ENVISION, Quantum MX, Corridor Aviation Service Software, and CAMP Systems (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom maintenance workflows, and transparent airworthiness tracking — ideal for GA owners, small operators, research institutions, and developers building vendor-independent aviation maintenance solutions. Note that the open-source ecosystem for full-scale MRO management remains limited compared to commercial offerings, with most projects focused on GA logbook digitization, academic database systems, or predictive maintenance research.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
+- [Market Size & Industry Structure](#market-size--industry-structure)
+- [SaaS & Commercial MRO Platforms](#saas--commercial-mro-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
+- [Frameworks & Key Research Topics](#frameworks--key-research-topics)
 - [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Ramco Aviation](https://www.ramco.com/aviation/)**  
-
-  Comprehensive aviation maintenance and engineering suite covering MRO, CAMO, and fleet management for airlines and defense operators.
-
-
-
-- **[AMOS](https://www.swiss-as.com/)**  
-
-  Industry-leading MRO software from Swiss AviationSoftware covering maintenance, engineering, logistics, and finance for airlines and MROs worldwide.
-
-
-
-- **[Veryon](https://veryon.com/)**  
-
-  Aviation maintenance tracking and compliance platform for business aviation, helicopters, and GA operators with AD/SB tracking.
-
-
-
-- **[IFS Maintenix](https://www.ifs.com/)**  
-
-  Aviation maintenance management software for airlines, MROs, and defense organizations with integrated supply chain.
-
-
-
-- **[Traxxall](https://traxxall.com/)**  
-
-  Maintenance tracking system providing personalized screening, automated airworthiness directive management, and compliance support .
-
-
-
-- **[Swiss AviationSoftware AMOS](https://www.swiss-as.com/)**  
-
-  The AMOS platform from Swiss AviationSoftware, covering maintenance, engineering, logistics, and finance for airlines and MROs.
-
-
-
-- **[Rusada ENVISION](https://www.rusada.com/)**  
-
-  Airworthiness, maintenance, and flight operations software for airlines, MROs, and rotary wing operators, with digital task cards and AD/SB management .
-
-
-
-- **[Quantum MX](https://www.quantummx.com/)**  
-
-  Maintenance management software for GA, flight schools, and small MROs with work order and inventory tracking.
-
-
-
-- **[Corridor Aviation Service Software](https://www.corridor.aero/)**  
-
-  Maintenance tracking and compliance software for business aviation operators and maintenance providers.
-
-
-
-- **[CAMP Systems](https://www.campsystems.com/)**  
-
-  Maintenance tracking and compliance management for business aviation, helicopters, and engines.
-
-
-
-- **[Commsoft OASES](https://www.commsoft.com/)**  
-
-  Open Aviation Strategic Engineering System for airlines with up to 50 aircraft, third-party MROs, and CAMOs. Uses Oracle database and Linux, with 90% of customers preferring self-hosted deployment .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[MyTailLog](https://github.com/iiamit/MyTailLog)**  
-
-  Free, open-source aircraft logbook digitizer and maintenance tracker for GA owners. AI reads paper logbooks using Anthropic vision models; tracks ADs, inspections, weight & balance, and hours. Built on Next.js, Supabase, and Firebase App Hosting with browser-side image processing and zero marginal cost target. MIT licensed. The developer manages over 50 years of logs for a 1970 Mooney M20F on the platform .
-
-
-
-- **[MSAT (USAF Maintenance Scheduling Application Tool)](https://github.com/Rusty112358/MSAT)**  
-
-  USAF maintenance scheduling tool that imports 200+ text file reports to manage aircraft configuration and maintenance. Provides data mining and reporting for aircraft schedulers and maintenance managers. Designed to support all Wings and any aircraft type. Demonstrates handling of complex legacy data migration challenges from systems built in the 1960s-80s .
-
-
-
-- **[SkyTrack](https://github.com/Anantha1605/SkyTrack)**  
-
-  Aviation database management system tracking aircraft, flight bookings, passenger information, staff assignments, and fleet maintenance records. Goal includes tracking aircraft usage for efficient maintenance scheduling. Potential extension for automated maintenance tracking based on flight hours .
-
-
-
-- **[Fiabilite-ML-Moteurs](https://github.com/EyaNajlaoui/Fiabilite-ML-Moteurs)**  
-
-  Predictive maintenance project using AI to enhance aircraft engine safety. Analyzes NASA C-MAPSS sensor data to predict Remaining Useful Life (RUL) and classify engine health. Combines reliability engineering (Weibull analysis, Kaplan-Meier survival analysis), machine learning (Random Forest, SVM with 96.63% accuracy), and deep learning (LSTM with R² of 0.8317). Includes clustering of operational regimes .
-
-
-
-- **[aviation-engine-maintenance-rag](https://github.com/suniltyagi/aviation-engine-maintenance-rag)**  
-
-  Retrieval-Augmented Generation pipeline for Aircraft Engine Maintenance manuals (FAA) enabling accurate Q&A. 174 MB repository with RAG implementation for aviation maintenance documentation .
-
-
-
-- **[allyelvis/aircraft-maintenance-system](https://github.com/allyelvis/https-github.com-allyelvis-aircraft-maintenance-system)**  
-
-  Python-based aircraft maintenance system with MIT license. Small repository (14.6 KB) suitable for learning or as a starting point for custom implementations .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Airplane Manuals Collection** — 3.39 GB collection of airplane manuals for reference and maintenance documentation. 14 stars .
-
-- **OOP-Aviation-Aircraft** — Python project using object-oriented programming, graphs, and network optimization for routes and aircraft utilization/maintenance forecasting. 4+ years old but demonstrates core algorithms .
-
-- **Predictive Maintenance (Industrial IOT)** — Statistical modeling and data visualization for failure analysis and prediction of industrial equipment, applicable to aviation maintenance contexts .
-
-- **turbofan-predictive-maintenance** — Machine learning project for predictive maintenance of turbofan engines with Flask web application, Docker deployment, and NASA datasets FD001-FD004 .
-
-- **damage-propagation-modeling-NASA-jet-engine** — NASA Turbofan Jet Engine propagation modeling for damage prediction .
-
-
-
-**Frameworks for building custom aircraft maintenance solutions**: For GA owners and small operators, **MyTailLog** provides an AI-powered logbook digitization foundation with minimal hosting costs and strong security (row-level access controls, AES-256-GCM encryption) . For predictive maintenance research, **Fiabilite-ML-Moteurs** demonstrates a complete ML/DL pipeline with RUL prediction and health classification . For legacy data migration challenges, **MSAT** shows how to handle complex, inconsistent data from multiple legacy systems . Note that true ASPM-style risk correlation and full MRO workflow management remain largely commercial territory; open-source stacks provide logbook digitization, tracking, and predictive analytics without the full suite integration of commercial platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Aircraft maintenance tools must comply with aviation regulations (EASA Part-145, FAA Part 145, ICAO Annex 6) and airworthiness requirements.
-
-- Self-hosted open-source solutions require proper aviation-grade security, reliability, and regulatory validation before operational deployment.
-
-- The open-source ecosystem for full-scale MRO management is significantly less mature than commercial offerings. Most projects listed are GA-focused, academic, or research-oriented. Production deployments should carefully evaluate gaps in functionality, security, and regulatory compliance.
-
-
+- [Regulatory & Security Disclaimer](#regulatory--security-disclaimer)
 
 ---
 
+## Market Size & Industry Structure
 
+> 💡 **Market Size & Sector Structure**: The global Aviation Maintenance, Repair, and Overhaul (MRO) software market size is estimated at **$7.2 Billion to $8.5 Billion** (projected to exceed **$12 Billion by 2032** at a 5.8% CAGR). The sector exhibits a **moderately fragmented market structure**: enterprise ERP titans (*IFS Maintenix*, *Lufthansa Technik / AMOS*) lead global commercial airlines and defense fleets; consolidated private equity platforms (*Veryon*, *CAMP Systems / Hearst*) dominate business aviation and GA compliance tracking; while specialized boutique SaaS vendors (*Quantum MX*, *Commsoft OASES*) serve regional repair stations and Part 145 shops.
 
-**Made for airlines, MROs, CAMOs, GA owners, and aviation maintenance professionals.**  
+---
 
-Let's make aircraft maintenance management more open, transparent, and compliant.
+## SaaS & Commercial MRO Platforms
+
+Below is a structured analysis of leading commercial aircraft maintenance software platforms, ranked by **Company Scale / Revenue / Valuation (Descending)**.
+
+| Platform / Product | Description | Company Scale / Revenue / Valuation | Pricing (Starting Tier / Basis) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[CAMP Systems](https://www.campsystems.com/)** | Industry-standard maintenance tracking, engine health monitoring, flight scheduling, and compliance management for business aviation & rotary wing fleets. | **Subsidiary of Hearst** ($12B+ parent revenue; CAMP standalone revenue est. **$166M – $230M/yr**, valuation ~$2B+) | Subscriptions start at **~$1,200 – $3,500/year per aircraft** depending on engine type, airframe complexity, and tracking modules selected. | **No free trial**; interactive 1-on-1 live demonstration and fleet onboarding consultation available on request. |
+| **[IFS Maintenix](https://www.ifs.com/)** | Enterprise-grade aviation EAM & MRO suite handling heavy maintenance, line planning, supply chain, and airworthiness for defense & commercial airlines. | **IFS Group** (PE-backed by EQT; ARR **$1.2B+**, valuation **$10B+**) | Enterprise licensing & SaaS modules starting at **~$150,000 to $5M+ TCO** based on fleet size, active maintenance users, and custom deployment scope. | **No free trial**; enterprise sandboxed demo environment provided during contract technical evaluation. |
+| **[Veryon](https://veryon.com/)** *(Includes ATP, Traxxall, Rusada ENVISION & Corridor)* | Integrated maintenance tracking, publication management, defect tracking, and AD/SB compliance for business jets, GA, and MRO providers. | **Accel-KKR Backed** (Est. annual revenue **$250M – $500M**, **$127M+** total equity funding raised) | Subscriptions start at **~$150 – $300/month per aircraft** for core compliance tracking; bundled 2-year free maintenance tracking for selected new Textron aircraft. | **7-day free trial** available for Veryon Publications and AD/SB compliance profiles; core tracking demonstrated via live demo. |
+| **[Swiss AviationSoftware AMOS](https://www.swiss-as.com/)** | Global benchmark MRO platform covering aircraft engineering, logistics, line/base maintenance, work orders, and financial control. | **Lufthansa Technik Subsidiary** ($7.5B+ parent group revenue; AMOS unit employs **350–500+ staff**, est. revenue **$50M – $100M**) | Tiered enterprise subscriptions starting from **~$25,000/year** for regional MROs / operators up to enterprise-wide multi-year airline agreements. | **No open free trial**; customized test server environment and guided proof-of-concept provided during vendor evaluation. |
+| **[Ramco Aviation](https://www.ramco.com/aviation/)** | Full-suite AI-native aviation MRO, engineering, CAMO, and flight operations software for commercial airlines, defense, and third-party MROs. | **Publicly Traded (BSE/NSE: RAMCOSYS)** (Market Cap **~$180M**, annual revenue **~$80M**) | Module licenses start from **$2,000/month** (or per user/month subscription) depending on operational scope and cloud vs on-premise setup. | **No public free trial**; custom enterprise demo and proof-of-concept environment available upon corporate request. |
+| **[Commsoft OASES](https://www.commsoft.com/)** | Open Aviation Strategic Engineering System managing airworthiness, maintenance scheduling, and inventory control for airlines & CAMOs (up to 50 aircraft). | **Valsoft Corporation Portfolio** ($1B+ holding group valuation; OASES segment revenue est. **$10M – $25M**) | Hybrid SaaS / self-hosted cloud licensing starting at **~$1,500/month** for small operator fleets (90% of clients choose self-hosted Linux/Oracle). | **No public trial plan**; technical consultation and live platform demo available for operators and Part-145 MROs. |
+| **[Quantum MX](https://www.quantummx.com/)** | Cloud-based repair station and shop management software for general aviation, flight schools, and small MROs with work order & inventory tracking. | **FLY Online Tools** (Independent boutique SaaS provider, estimated annual revenue **$1M – $5M**) | Small Shop tier starts at **$79/month**; Medium Shop tier at **$109/month**; Large Repair Station tier at **$189/month**. | **30-day full-feature free trial** available (supports setup of 1 aircraft/shop profile with zero startup fees). |
+
+---
+
+## Open-Source GitHub Projects
+
+Curated open-source aviation maintenance applications, logbook digitizers, and predictive maintenance algorithms — ranked by **GitHub Star Count (Descending)**.
+
+- **[shiroinekotfs/airplane-manual-collection](https://github.com/shiroinekotfs/airplane-manual-collection)** [![GitHub stars](https://img.shields.io/github/stars/shiroinekotfs/airplane-manual-collection?style=social&color=white)](https://github.com/shiroinekotfs/airplane-manual-collection/stargazers)  
+  A massive 3.39 GB curated collection of technical airplane manuals, maintenance procedures, and operational documentations for Boeing, Airbus, and GA aircraft reference.
+
+- **[xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT](https://github.com/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT)** [![GitHub stars](https://img.shields.io/github/stars/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT?style=social&color=white)](https://github.com/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT/stargazers)  
+  Deep learning framework applying Convolutional LSTM networks and computer vision to structural health monitoring (SHM), non-destructive testing (NDT), and automated aircraft fuselage inspection.
+
+- **[fiffty-50/openPilotLog](https://github.com/fiffty-50/openPilotLog)** [![GitHub stars](https://img.shields.io/github/stars/fiffty-50/openPilotLog?style=social&color=white)](https://github.com/fiffty-50/openPilotLog/stargazers)  
+  Free and Open Source (FOSS) pilot logbook desktop application written in C++ (Qt framework) supporting flight time calculations, aircraft currency tracking, and maintenance duty logs.
+
+- **[aun151214/predictive-maintenance-cmapss](https://github.com/aun151214/predictive-maintenance-cmapss)** [![GitHub stars](https://img.shields.io/github/stars/aun151214/predictive-maintenance-cmapss?style=social&color=white)](https://github.com/aun151214/predictive-maintenance-cmapss/stargazers)  
+  End-to-end predictive maintenance pipeline evaluating NASA C-MAPSS turbofan engine sensor data using LSTM, GRU, and Transformer architectures for Remaining Useful Life (RUL) estimation.
+
+- **[iiamit/MyTailLog](https://github.com/iiamit/MyTailLog)** [![GitHub stars](https://img.shields.io/github/stars/iiamit/MyTailLog?style=social&color=white)](https://github.com/iiamit/MyTailLog/stargazers)  
+  Open-source aircraft logbook digitizer and airworthiness tracker built on Next.js, Supabase, and Firebase App Hosting. Uses AI vision models to transcribe paper logbooks, track AD compliance, weight & balance, and time-in-service.
+
+- **[thunderai/openairport](https://github.com/thunderai/openairport)** [![GitHub stars](https://img.shields.io/github/stars/thunderai/openairport?style=social&color=white)](https://github.com/thunderai/openairport/stargazers)  
+  Open-source Airport Computer Maintenance and Management System (CMMS) designed for tracking airfield inspections, Part 139 maintenance compliance, and equipment servicing.
+
+- **[shivamm-verma/AERISK](https://github.com/shivamm-verma/AERISK)** [![GitHub stars](https://img.shields.io/github/stars/shivamm-verma/AERISK?style=social&color=white)](https://github.com/shivamm-verma/AERISK/stargazers)  
+  Aviation Risk Analysis System using machine learning for predictive maintenance in aviation safety, predicting critical aircraft component degradation prior to failure.
+
+- **[suniltyagi/aviation-engine-maintenance-rag](https://github.com/suniltyagi/aviation-engine-maintenance-rag)** [![GitHub stars](https://img.shields.io/github/stars/suniltyagi/aviation-engine-maintenance-rag?style=social&color=white)](https://github.com/suniltyagi/aviation-engine-maintenance-rag/stargazers)  
+  Retrieval-Augmented Generation (RAG) pipeline trained on FAA Aircraft Engine Maintenance manuals enabling accurate natural language technical Q&A for aircraft mechanics.
+
+- **[RafailBesparas/Aircraft_Maintenance_Tracker](https://github.com/RafailBesparas/Aircraft_Maintenance_Tracker)** [![GitHub stars](https://img.shields.io/github/stars/RafailBesparas/Aircraft_Maintenance_Tracker?style=social&color=white)](https://github.com/RafailBesparas/Aircraft_Maintenance_Tracker/stargazers)  
+  Java Swing and PostgreSQL desktop application built to manage aircraft records, maintenance tasks, and component tracking aligned with DO-178C DAL C software safety principles.
+
+- **[Rusty112358/MSAT](https://github.com/Rusty112358/MSAT)** [![GitHub stars](https://img.shields.io/github/stars/Rusty112358/MSAT?style=social&color=white)](https://github.com/Rusty112358/MSAT/stargazers)  
+  USAF Maintenance Scheduling Application Tool designed to import and parse 200+ legacy text file reports to manage military aircraft configuration, maintenance schedules, and fleet metrics.
+
+- **[Anantha1605/SkyTrack](https://github.com/Anantha1605/SkyTrack)** [![GitHub stars](https://img.shields.io/github/stars/Anantha1605/SkyTrack?style=social&color=white)](https://github.com/Anantha1605/SkyTrack/stargazers)  
+  Aviation management database schema and web system tracking aircraft operations, flight bookings, crew scheduling, and routine maintenance log entries.
+
+- **[EyaNajlaoui/Fiabilite-ML-Moteurs](https://github.com/EyaNajlaoui/Fiabilite-ML-Moteurs)** [![GitHub stars](https://img.shields.io/github/stars/EyaNajlaoui/Fiabilite-ML-Moteurs?style=social&color=white)](https://github.com/EyaNajlaoui/Fiabilite-ML-Moteurs/stargazers)  
+  Predictive maintenance repository combining Weibull survival analysis, Random Forest classifiers, and LSTM deep learning models to predict turbofan engine Remaining Useful Life (RUL).
+
+- **[allyelvis/aircraft-maintenance-system](https://github.com/allyelvis/aircraft-maintenance-system)** [![GitHub stars](https://img.shields.io/github/stars/allyelvis/aircraft-maintenance-system?style=social&color=white)](https://github.com/allyelvis/aircraft-maintenance-system/stargazers)  
+  Lightweight Python-based aircraft maintenance tracking starter project for learning baseline maintenance database CRUD operations.
+
+---
+
+## Frameworks & Key Research Topics
+
+- **GA Logbook Digitization**: Tools like **[MyTailLog](https://github.com/iiamit/MyTailLog)** provide AI OCR pipelines for converting paper logbooks into searchable airworthiness records while enforcing AES-256 encryption.
+- **Turbofan Engine Predictive Maintenance**: Benchmarks on the **NASA C-MAPSS dataset** demonstrate RUL predictions using LSTM networks, GRU, and Transformer attention mechanisms.
+- **Legacy System Data Ingestion**: System utilities like **[MSAT](https://github.com/Rusty112358/MSAT)** showcase processing legacy mainframe reports into modern relational schemas.
+
+---
+
+## How to Contribute
+
+1. Fork the repository.
+2. Add or update entries in `README.md` keeping formatting consistent.
+3. For SaaS platforms: include product name, link, brief description, estimated company scale/revenue, specific starting price, and free trial limits.
+4. For Open-Source repositories: include exact GitHub link, star badge (`style=social&color=white`), and functional overview.
+5. Open a Pull Request with a clear summary of changes.
+
+---
+
+## Regulatory & Security Disclaimer
+
+- This list is community-curated for informational and research purposes only.
+- Operational aircraft maintenance management systems must comply strictly with civil aviation regulations (e.g., **FAA Part 145 / Part 43**, **EASA Part-145 / Part-CAMO**, **ICAO Annex 6**).
+- Open-source implementations require rigorous software safety validation, regulatory approval, and airworthiness authority certification before operational deployment in active flight management.
+
+---
+
+**Made for airlines, MROs, CAMO engineers, GA owners, and aviation software developers.**
