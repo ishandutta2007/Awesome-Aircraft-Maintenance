@@ -6,7 +6,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Aircraft-Maintenance/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Aircraft-Maintenance?style=social&color=white" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Aircraft-Maintenance/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Aircraft-Maintenance?style=social&color=white" alt="GitHub_Stars"/></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -57,45 +57,45 @@ Below is a structured analysis of leading commercial aircraft maintenance softwa
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source aviation maintenance applications, logbook digitizers, and predictive maintenance algorithms — ranked by **GitHub Star Count (Descending)**. 🌟
+Curated open-source aviation maintenance applications, logbook digitizers, and predictive maintenance algorithms — ranked by **GitHub Stars_Count (Descending)**. 🌟
 
-- **[shiroinekotfs/airplane-manual-collection](https://github.com/shiroinekotfs/airplane-manual-collection)** [![GitHub stars](https://img.shields.io/github/stars/shiroinekotfs/airplane-manual-collection?style=social&color=white)](https://github.com/shiroinekotfs/airplane-manual-collection/stargazers)  
+- **[shiroinekotfs/airplane-manual-collection](https://github.com/shiroinekotfs/airplane-manual-collection)** [![GitHub_Stars](https://img.shields.io/github/stars/shiroinekotfs/airplane-manual-collection?style=social&color=white)](https://github.com/shiroinekotfs/airplane-manual-collection/stargazers)  
   📚 A massive 3.39 GB curated collection of technical airplane manuals, maintenance procedures, and operational documentations for Boeing, Airbus, and GA aircraft reference.
 
-- **[xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT](https://github.com/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT)** [![GitHub stars](https://img.shields.io/github/stars/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT?style=social&color=white)](https://github.com/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT/stargazers)  
+- **[xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT](https://github.com/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT)** [![GitHub_Stars](https://img.shields.io/github/stars/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT?style=social&color=white)](https://github.com/xaviergoby/ConvLSTM-Computer-Vision-for-Structural-Health-Monitoring-SHM-and-NonDestructive-Testing-NDT/stargazers)  
   🧠 Deep learning framework applying Convolutional LSTM networks and computer vision to structural health monitoring (SHM), non-destructive testing (NDT), and automated aircraft fuselage inspection.
 
-- **[fiffty-50/openPilotLog](https://github.com/fiffty-50/openPilotLog)** [![GitHub stars](https://img.shields.io/github/stars/fiffty-50/openPilotLog?style=social&color=white)](https://github.com/fiffty-50/openPilotLog/stargazers)  
+- **[fiffty-50/openPilotLog](https://github.com/fiffty-50/openPilotLog)** [![GitHub_Stars](https://img.shields.io/github/stars/fiffty-50/openPilotLog?style=social&color=white)](https://github.com/fiffty-50/openPilotLog/stargazers)  
   ✈️ Free and Open Source (FOSS) pilot logbook desktop application written in C++ (Qt framework) supporting flight time calculations, aircraft currency tracking, and maintenance duty logs.
 
-- **[aun151214/predictive-maintenance-cmapss](https://github.com/aun151214/predictive-maintenance-cmapss)** [![GitHub stars](https://img.shields.io/github/stars/aun151214/predictive-maintenance-cmapss?style=social&color=white)](https://github.com/aun151214/predictive-maintenance-cmapss/stargazers)  
+- **[aun151214/predictive-maintenance-cmapss](https://github.com/aun151214/predictive-maintenance-cmapss)** [![GitHub_Stars](https://img.shields.io/github/stars/aun151214/predictive-maintenance-cmapss?style=social&color=white)](https://github.com/aun151214/predictive-maintenance-cmapss/stargazers)  
   ⚙️ End-to-end predictive maintenance pipeline evaluating NASA C-MAPSS turbofan engine sensor data using LSTM, GRU, and Transformer architectures for Remaining Useful Life (RUL) estimation.
 
-- **[iiamit/MyTailLog](https://github.com/iiamit/MyTailLog)** [![GitHub stars](https://img.shields.io/github/stars/iiamit/MyTailLog?style=social&color=white)](https://github.com/iiamit/MyTailLog/stargazers)  
+- **[iiamit/MyTailLog](https://github.com/iiamit/MyTailLog)** [![GitHub_Stars](https://img.shields.io/github/stars/iiamit/MyTailLog?style=social&color=white)](https://github.com/iiamit/MyTailLog/stargazers)  
   📖 Open-source aircraft logbook digitizer and airworthiness tracker built on Next.js, Supabase, and Firebase App Hosting. Uses AI vision models to transcribe paper logbooks, track AD compliance, weight & balance, and time-in-service.
 
-- **[thunderai/openairport](https://github.com/thunderai/openairport)** [![GitHub stars](https://img.shields.io/github/stars/thunderai/openairport?style=social&color=white)](https://github.com/thunderai/openairport/stargazers)  
+- **[thunderai/openairport](https://github.com/thunderai/openairport)** [![GitHub_Stars](https://img.shields.io/github/stars/thunderai/openairport?style=social&color=white)](https://github.com/thunderai/openairport/stargazers)  
   🏬 Open-source Airport Computer Maintenance and Management System (CMMS) designed for tracking airfield inspections, Part 139 maintenance compliance, and equipment servicing.
 
-- **[shivamm-verma/AERISK](https://github.com/shivamm-verma/AERISK)** [![GitHub stars](https://img.shields.io/github/stars/shivamm-verma/AERISK?style=social&color=white)](https://github.com/shivamm-verma/AERISK/stargazers)  
+- **[shivamm-verma/AERISK](https://github.com/shivamm-verma/AERISK)** [![GitHub_Stars](https://img.shields.io/github/stars/shivamm-verma/AERISK?style=social&color=white)](https://github.com/shivamm-verma/AERISK/stargazers)  
   ⚠️ Aviation Risk Analysis System using machine learning for predictive maintenance in aviation safety, predicting critical aircraft component degradation prior to failure.
 
-- **[suniltyagi/aviation-engine-maintenance-rag](https://github.com/suniltyagi/aviation-engine-maintenance-rag)** [![GitHub stars](https://img.shields.io/github/stars/suniltyagi/aviation-engine-maintenance-rag?style=social&color=white)](https://github.com/suniltyagi/aviation-engine-maintenance-rag/stargazers)  
+- **[suniltyagi/aviation-engine-maintenance-rag](https://github.com/suniltyagi/aviation-engine-maintenance-rag)** [![GitHub_Stars](https://img.shields.io/github/stars/suniltyagi/aviation-engine-maintenance-rag?style=social&color=white)](https://github.com/suniltyagi/aviation-engine-maintenance-rag/stargazers)  
   🤖 Retrieval-Augmented Generation (RAG) pipeline trained on FAA Aircraft Engine Maintenance manuals enabling accurate natural language technical Q&A for aircraft mechanics.
 
-- **[RafailBesparas/Aircraft_Maintenance_Tracker](https://github.com/RafailBesparas/Aircraft_Maintenance_Tracker)** [![GitHub stars](https://img.shields.io/github/stars/RafailBesparas/Aircraft_Maintenance_Tracker?style=social&color=white)](https://github.com/RafailBesparas/Aircraft_Maintenance_Tracker/stargazers)  
+- **[RafailBesparas/Aircraft_Maintenance_Tracker](https://github.com/RafailBesparas/Aircraft_Maintenance_Tracker)** [![GitHub_Stars](https://img.shields.io/github/stars/RafailBesparas/Aircraft_Maintenance_Tracker?style=social&color=white)](https://github.com/RafailBesparas/Aircraft_Maintenance_Tracker/stargazers)  
   🛠️ Java Swing and PostgreSQL desktop application built to manage aircraft records, maintenance tasks, and component tracking aligned with DO-178C DAL C software safety principles.
 
-- **[Rusty112358/MSAT](https://github.com/Rusty112358/MSAT)** [![GitHub stars](https://img.shields.io/github/stars/Rusty112358/MSAT?style=social&color=white)](https://github.com/Rusty112358/MSAT/stargazers)  
+- **[Rusty112358/MSAT](https://github.com/Rusty112358/MSAT)** [![GitHub_Stars](https://img.shields.io/github/stars/Rusty112358/MSAT?style=social&color=white)](https://github.com/Rusty112358/MSAT/stargazers)  
   🛩️ USAF Maintenance Scheduling Application Tool designed to import and parse 200+ legacy text file reports to manage military aircraft configuration, maintenance schedules, and fleet metrics.
 
-- **[Anantha1605/SkyTrack](https://github.com/Anantha1605/SkyTrack)** [![GitHub stars](https://img.shields.io/github/stars/Anantha1605/SkyTrack?style=social&color=white)](https://github.com/Anantha1605/SkyTrack/stargazers)  
+- **[Anantha1605/SkyTrack](https://github.com/Anantha1605/SkyTrack)** [![GitHub_Stars](https://img.shields.io/github/stars/Anantha1605/SkyTrack?style=social&color=white)](https://github.com/Anantha1605/SkyTrack/stargazers)  
   🗄️ Aviation management database schema and web system tracking aircraft operations, flight bookings, crew scheduling, and routine maintenance log entries.
 
-- **[EyaNajlaoui/Fiabilite-ML-Moteurs](https://github.com/EyaNajlaoui/Fiabilite-ML-Moteurs)** [![GitHub stars](https://img.shields.io/github/stars/EyaNajlaoui/Fiabilite-ML-Moteurs?style=social&color=white)](https://github.com/EyaNajlaoui/Fiabilite-ML-Moteurs/stargazers)  
+- **[EyaNajlaoui/Fiabilite-ML-Moteurs](https://github.com/EyaNajlaoui/Fiabilite-ML-Moteurs)** [![GitHub_Stars](https://img.shields.io/github/stars/EyaNajlaoui/Fiabilite-ML-Moteurs?style=social&color=white)](https://github.com/EyaNajlaoui/Fiabilite-ML-Moteurs/stargazers)  
   📊 Predictive maintenance repository combining Weibull survival analysis, Random Forest classifiers, and LSTM deep learning models to predict turbofan engine Remaining Useful Life (RUL).
 
-- **[allyelvis/aircraft-maintenance-system](https://github.com/allyelvis/aircraft-maintenance-system)** [![GitHub stars](https://img.shields.io/github/stars/allyelvis/aircraft-maintenance-system?style=social&color=white)](https://github.com/allyelvis/aircraft-maintenance-system/stargazers)  
+- **[allyelvis/aircraft-maintenance-system](https://github.com/allyelvis/aircraft-maintenance-system)** [![GitHub_Stars](https://img.shields.io/github/stars/allyelvis/aircraft-maintenance-system?style=social&color=white)](https://github.com/allyelvis/aircraft-maintenance-system/stargazers)  
   🐍 Lightweight Python-based aircraft maintenance tracking starter project for learning baseline maintenance database CRUD operations.
 
 ---
@@ -113,7 +113,7 @@ Curated open-source aviation maintenance applications, logbook digitizers, and p
 1. 🍴 Fork the repository.
 2. 📝 Add or update entries in `README.md` keeping formatting consistent.
 3. 🏢 For SaaS platforms: include product name, link, brief description, estimated company scale/revenue, specific starting price, and free trial limits.
-4. 🔓 For Open-Source repositories: include exact GitHub link, star badge (`style=social&color=white`), and functional overview.
+4. 🔓 For Open-Source repositories: include exact GitHub link, Stars_Badge (`style=social&color=white`), and functional overview.
 5. 🚀 Open a Pull Request with a clear summary of changes.
 
 ---
@@ -153,3 +153,12 @@ If you'd like to support the ongoing maintenance and curation of open-source pro
 <p align="center">
   <b>Made with ❤️ for airlines, MROs, CAMO engineers, GA owners, and aviation software developers.</b>
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Aircraft-Maintenance&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Aircraft-Maintenance_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Aircraft-Maintenance_growth.svg">
+  </picture>
+</a>
