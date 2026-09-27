@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#1E293B" />
     </linearGradient>
 
-    <!-- Text Gradient -->
+    <!-- Text & Glow Gradients -->
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8" />
       <stop offset="50%" stop-color="#818CF8" />
@@ -16,125 +16,115 @@
 
     <!-- Radar Sweep Gradient -->
     <radialGradient id="radarSweep" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
-      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.05" />
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#0F172A" stop-opacity="0" />
     </radialGradient>
-
-    <!-- Glow Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
   <style>
-    @keyframes pulse {
-      0%, 100% { opacity: 0.2; transform: scale(1); }
-      50% { opacity: 0.5; transform: scale(1.03); }
-    }
     @keyframes radarRotate {
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
     }
-    @keyframes dashMove {
-      0% { stroke-dashoffset: 100; }
-      100% { stroke-dashoffset: 0; }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-    }
     @keyframes jetFly {
-      0% { transform: translate(-50px, 40px) scale(0.8); opacity: 0; }
-      20% { opacity: 0.8; }
-      80% { opacity: 0.8; }
-      100% { transform: translate(1150px, -60px) scale(0.8); opacity: 0; }
+      0% { transform: translate(-80px, 40px) scale(0.85); opacity: 0; }
+      15% { opacity: 0.85; }
+      85% { opacity: 0.85; }
+      100% { transform: translate(1220px, -60px) scale(0.85); opacity: 0; }
     }
-
-    .bg-grid { opacity: 0.15; stroke: #38BDF8; stroke-width: 0.5; }
-    .radar-circle { stroke: #38BDF8; stroke-opacity: 0.2; fill: none; stroke-width: 1; }
-    .radar-line { stroke: #38BDF8; stroke-dasharray: 4 4; opacity: 0.3; }
-    .jet-path { fill: none; stroke: url(#textGrad); stroke-width: 2; stroke-dasharray: 8 6; animation: dashMove 4s linear infinite; }
-    .floating-pill { animation: float 6s ease-in-out infinite; }
-    .pulsing-node { animation: pulse 3s ease-in-out infinite; }
-    .radar-sweep-group { transform-origin: 950px 180px; animation: radarRotate 12s linear infinite; }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.8; }
+    }
+    .radar-sweep-group {
+      transform-origin: 960px 180px;
+      animation: radarRotate 10s linear infinite;
+    }
+    .jet-anim {
+      animation: jetFly 9s linear infinite;
+    }
+    .blip-pulse {
+      animation: pulseGlow 2.5s ease-in-out infinite;
+    }
   </style>
 
-  <!-- Background Layer -->
+  <!-- Outer Background Container -->
   <rect width="1200" height="360" rx="16" fill="url(#bgGradient)" stroke="#334155" stroke-width="2"/>
 
-  <!-- Grid Pattern -->
-  <g class="bg-grid">
+  <!-- Background Grid Pattern -->
+  <g opacity="0.12" stroke="#38BDF8" stroke-width="0.75">
     <path d="M0 40 H1200 M0 80 H1200 M0 120 H1200 M0 160 H1200 M0 200 H1200 M0 240 H1200 M0 280 H1200 M0 320 H1200" />
     <path d="M100 0 V360 M200 0 V360 M300 0 V360 M400 0 V360 M500 0 V360 M600 0 V360 M700 0 V360 M800 0 V360 M900 0 V360 M1000 0 V360 M1100 0 V360" />
   </g>
 
-  <!-- Animated Radar Element (Background Dynamic Graphic) -->
+  <!-- Radar Interface Graphic (Right Section) -->
   <g transform="translate(0, 0)">
-    <circle cx="980" cy="180" r="140" class="radar-circle" />
-    <circle cx="980" cy="180" r="90" class="radar-circle" />
-    <circle cx="980" cy="180" r="40" class="radar-circle" />
-    <line x1="980" y1="40" x2="980" y2="320" class="radar-line" />
-    <line x1="840" y1="180" x2="1120" y2="180" class="radar-line" />
+    <!-- Concentric Target Circles -->
+    <circle cx="960" cy="180" r="140" fill="none" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1.5" />
+    <circle cx="960" cy="180" r="95" fill="none" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1" />
+    <circle cx="960" cy="180" r="50" fill="none" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1" />
+    <line x1="960" y1="35" x2="960" y2="325" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="815" y1="180" x2="1105" y2="180" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 4" />
     
-    <!-- Rotating Sweep -->
+    <!-- Rotating Sweep Beam -->
     <g class="radar-sweep-group">
-      <path d="M980 180 L1120 180 A140 140 0 0 0 980 40 Z" fill="url(#radarSweep)" />
+      <path d="M960 180 L1100 180 A140 140 0 0 0 960 40 Z" fill="url(#radarSweep)" />
+      <line x1="960" y1="180" x2="1100" y2="180" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.7" />
     </g>
     
-    <!-- Blip / Node Dots -->
-    <circle cx="940" cy="130" r="4" fill="#38BDF8" class="pulsing-node" filter="url(#glow)"/>
-    <circle cx="1020" cy="220" r="3" fill="#818CF8" class="pulsing-node" filter="url(#glow)"/>
-    <circle cx="1040" cy="140" r="5" fill="#34D399" class="pulsing-node" filter="url(#glow)"/>
+    <!-- Radar Target Blips -->
+    <circle cx="920" cy="130" r="4.5" fill="#38BDF8" class="blip-pulse" />
+    <circle cx="1010" cy="225" r="3.5" fill="#818CF8" class="blip-pulse" />
+    <circle cx="1035" cy="135" r="5" fill="#34D399" class="blip-pulse" />
   </g>
 
-  <!-- Simulated Flight Path Line -->
-  <path d="M -50 260 Q 300 120 600 240 T 1250 80" class="jet-path" opacity="0.4" />
+  <!-- Simulated Flight Path Arc -->
+  <path d="M -50 270 Q 320 110 650 250 T 1250 70" fill="none" stroke="url(#textGrad)" stroke-width="2" stroke-dasharray="6 6" opacity="0.4" />
 
   <!-- Animated Jet Silhouette -->
-  <g style="animation: jetFly 10s linear infinite;">
-    <path d="M 0 0 L 25 -8 L 40 0 L 25 8 Z M 20 -4 L 10 -18 L 16 -18 L 26 -4 Z M 20 4 L 10 18 L 16 18 L 26 4 Z" fill="#38BDF8" filter="url(#glow)"/>
+  <g class="jet-anim">
+    <path d="M 0 0 L 25 -8 L 40 0 L 25 8 Z M 20 -4 L 10 -18 L 16 -18 L 26 -4 Z M 20 4 L 10 18 L 16 18 L 26 4 Z" fill="#38BDF8" />
   </g>
 
-  <!-- Decorative Pills / Tags in Right BG -->
-  <g class="floating-pill" transform="translate(820, 50)">
-    <rect width="90" height="26" rx="13" fill="#1E293B" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.5"/>
-    <text x="45" y="17" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">✈️ FAA Part 145</text>
+  <!-- Status / Regulatory Floating Pills -->
+  <g transform="translate(810, 48)">
+    <rect width="105" height="26" rx="13" fill="#1E293B" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="52.5" y="17" fill="#38BDF8" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">FAA Part 145</text>
   </g>
   
-  <g class="floating-pill" style="animation-delay: 2s;" transform="translate(970, 290)">
-    <rect width="100" height="26" rx="13" fill="#1E293B" stroke="#818CF8" stroke-opacity="0.4" stroke-width="1.5"/>
-    <text x="50" y="17" fill="#818CF8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">🛠️ EASA Part-CAMO</text>
+  <g transform="translate(965, 290)">
+    <rect width="115" height="26" rx="13" fill="#1E293B" stroke="#818CF8" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="57.5" y="17" fill="#818CF8" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">EASA Part-CAMO</text>
   </g>
 
-  <!-- Foreground Title and Subtitle Text (Guaranteed High Contrast & Visible) -->
+  <!-- Foreground Title and Subtitle Text Block -->
   <g transform="translate(60, 0)">
-    <!-- Badge / Category Header -->
-    <g transform="translate(0, 75)">
-      <rect width="210" height="30" rx="15" fill="#0369A1" fill-opacity="0.4" stroke="#0284C7" stroke-width="1.5"/>
-      <text x="105" y="19" fill="#7DD3FC" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle">AVIATION MRO ECOSYSTEM</text>
+    <!-- Header Category Badge -->
+    <g transform="translate(0, 72)">
+      <rect width="210" height="30" rx="15" fill="#0369A1" fill-opacity="0.45" stroke="#0284C7" stroke-width="1.5"/>
+      <text x="105" y="19" fill="#7DD3FC" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="1" text-anchor="middle">AVIATION MRO ECOSYSTEM</text>
     </g>
 
-    <!-- Main Title -->
-    <text x="0" y="160" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5" filter="url(#glow)">
+    <!-- Repository Title -->
+    <text x="0" y="160" fill="url(#textGrad)" font-family="sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5">
       Awesome Aircraft Maintenance
     </text>
 
     <!-- Subtitle Line 1 -->
-    <text x="0" y="205" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="500">
-      Curated List of SaaS Platforms, Enterprise MRO Suites &amp; Open-Source Projects
+    <text x="0" y="205" fill="#F8FAFC" font-family="sans-serif" font-size="18" font-weight="bold">
+      Curated Directory of SaaS Platforms, Enterprise MRO Suites &amp; Open-Source Tools
     </text>
 
-    <!-- Subtitle Line 2 (Feature tags) -->
-    <text x="0" y="240" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400">
-      ⚡ Airworthiness Compliance &nbsp;•&nbsp; 🔧 Logbook Digitization &nbsp;•&nbsp; 📊 Predictive Engine Maintenance (C-MAPSS)
+    <!-- Subtitle Line 2 -->
+    <text x="0" y="240" fill="#94A3B8" font-family="sans-serif" font-size="14" font-weight="normal">
+      Airworthiness Compliance  •  Logbook Digitization  •  Predictive Engine Maintenance (C-MAPSS)
     </text>
 
-    <!-- Status indicator tag -->
+    <!-- Live Status Indicator -->
     <g transform="translate(0, 272)">
       <circle cx="8" cy="8" r="5" fill="#34D399" />
-      <text x="22" y="12" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Updated for 2026 • Community Maintained</text>
+      <text x="22" y="12" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="bold">Updated for 2026 • Community Maintained</text>
     </g>
   </g>
 </svg>
